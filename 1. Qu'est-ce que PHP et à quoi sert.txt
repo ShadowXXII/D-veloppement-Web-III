@@ -1,0 +1,35 @@
+1. Qu'est-ce que PHP et à quoi sert-il principalement ?
+Hypertext Preprocessor
+Principalement conçu pour le développement d'applications web
+
+2. Comment déclare-t-on une variable en PHP ?
+$
+
+3. Quelle est la différence entre les méthodes GET et POST dans les formulaires PHP ?
+GET: Les données sont envoyées en tant que paramètres dans l'URL
+POST: Les données sont envoyées dans le corps de la requête HTTP, invisibles dans l'URL.
+
+4. Comment écrire un commentaire sur plusieurs lignes en PHP ?
+/*
+*/
+
+5. Qu'est-ce qu'une fonction en PHP et comment la définir ?
+ une fonction est un bloc de code réutilisable qui exécute une tâche spécifique
+function direBonjour($nom){...}
+
+6. Comment utilise-t-on une boucle foreach en PHP ?
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+
+7. Qu'est-ce qu'une variable statique dans une fonction PHP ?
+Une seule variable statique en mémoire
+
+8. Comment accéder à une valeur dans un tableau associatif PHP ?
+$tableau['clef']
+
+9. Que signifie le mot-clé global en PHP ?
+ lier une variable de la portée globale dans une portée locale
+
+10. Comment traite-t-on les erreurs en PHP ?
+Try-Cache
